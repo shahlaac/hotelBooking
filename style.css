@@ -1,0 +1,256 @@
+    *{
+        padding: 0;
+        margin: 0;
+
+    }
+    body{
+    font-family: "Tagesschrift", system-ui;
+    background-color: rgb(219, 226, 231) !important;
+
+    
+        
+
+        }
+    /* navbar */
+    .navbar-section{
+            padding: 10px 50px 50px ;
+
+            
+
+    }
+    .navbar{
+            background-color: rgb(219, 226, 231) !important;
+
+    }
+    .navbar-nav{
+        background-color: rgb(219, 226, 231) !important;
+
+    }
+    .container-fluid{
+        background-color: rgb(219, 226, 231) !important;
+        padding: 0PX !important;
+
+    }
+    .nav-item:hover{
+        background-color: rgb(97, 150, 197) !important;
+    border-radius: 5px;
+    }
+    .navbar-nav .nav-link:hover {
+        color: white !important;
+    }
+    .btn{
+    border: 2px solid rgb(97, 150, 197) !important;
+    color: rgb(97, 150, 197) !important;
+    }
+    .btn:hover{
+        background-color: rgb(97, 150, 197) !important;
+        color: white !important;
+
+
+    }
+    #search{
+        border: 2px solid rgb(97, 150, 197) !important;
+
+    }
+    /* carousal */
+    .home-carousal{
+        width: 100%;
+        height: fit-content;
+        border-radius: 10px;
+        padding: 10px 50px 50px ;
+
+    
+    }
+    .home-carousal .carousel-item img {
+        height: 680px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .carousel-caption h5{
+        font-size: xx-large;
+    }
+
+    .home-carousal .carousel-caption {
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: auto;
+        text-align: center;
+    }
+    .dropdown-item:hover {
+        background-color: rgb(97, 150, 197) !important;
+        color: white !important; /* optional: for better contrast */
+    }
+
+
+    /* offer cards */
+    #offerwall{
+            padding: 10px 50px 80px 50px ;
+            margin-bottom: 20px;
+
+    }
+    #offer-cards{
+        display: flex;
+    }
+    #offer-inside{
+        width: 100%;
+        display: flex;
+        height: 150px;
+
+    }
+    .first{
+        width: 50%;
+
+        
+    }
+    .second{
+        width: 50%;
+        background-color: rgb(97, 150, 197) ;
+        border-radius: 0px 10px 10px 0px;
+        text-align: center;
+        padding-top: 20px;
+
+    }
+    .first img{
+        width: 100%;
+        height: 150px;
+        border-radius: 10px 0px 0px 10px;
+
+    }
+
+    /* room types */
+    #discover h5{
+        text-align: center;
+        font-size: xx-large;
+        margin-top: 90px ;
+
+    }
+    #room-type-container{
+        display: flex;
+        justify-content:space-between;
+        gap: 50px;
+    }
+    #room-type{
+        width: 300px;
+    }
+
+    #room-type img{
+        width: 300px;
+        height: 300px;
+        border-radius: 5px;
+    }
+    #container{
+        padding: 50px 50px 50px 50px ;
+
+        text-align: center;
+    }
+    .icon-link{
+        background-color: rgb(97, 150, 197) ;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+    }
+    #view-more{
+        margin-top: 60px;
+    }
+
+    /* carousal */
+
+    .card-content{
+        margin-left: 20px;
+        
+    }
+    .book{
+        border: 2px solid rgb(97, 150, 197) !important;
+    color: rgb(97, 150, 197) !important;
+
+    }
+    .book:hover{
+        background-color: rgb(97, 150, 197) !important;
+        color: white !important;
+
+
+    }
+
+
+    .carousel-item {
+        padding: 20px 0;
+        }
+        .card img {
+        height: 150px;
+        object-fit: cover;
+        }
+
+    .carousel-control-prev-icon{
+    background-color: rgb(97, 150, 197);
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+
+    }
+    .carousel-control-next-icon {
+    background-color: rgb(97, 150, 197);
+
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    }
+
+    .carousel {
+    position: relative;
+    }
+    footer{
+        background-color: rgba(41, 121, 191, 0.375);
+       
+
+    }
+    .links{
+        text-decoration: none;
+        color: white;
+    }
+/* rooom */
+.image{
+    width: 900px;
+    height: 600px;
+    
+    border-radius: 10px;
+}
+
+#banner{
+    position: relative;
+}
+#banner-text{
+    position: absolute;
+    top:200px;
+    right: 120px;
+    /* color: white; */
+    font-weight: bolder;
+}
+#unique{
+    background-color:rgba(120, 151, 177, 0.375) ;
+}
+#service{
+    position: absolute;
+    top: 250px;
+    right: 130px;
+    left: 100px;
+    color: white;
+    font-weight: bolder;
+    font-size: 70px;
+}
+#contact{
+    position: absolute;
+    bottom: 200px;
+    right: 130px;
+    left: 100px;
+    color: white;
+    font-weight: bolder;
+    font-size: 70px;
+
+}
+
+/* hover effect for divs and cards */
+ .cozy:hover{
+    box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.282);
+transition: transform 0.3s ease-in-out;
+transform: scale(1.05);  }
